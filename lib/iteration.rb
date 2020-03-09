@@ -46,7 +46,7 @@ def total_even_pairs(src)
     if src[row_index][0] % 2 == 0 && src[row_index][1] % 2 == 0
       output_ary << src[row_index][0] + src[row_index][1]
     end
-    row_index += 1 
+    row_index += 1
   end
   return output_ary 
 end
